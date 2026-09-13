@@ -14,6 +14,8 @@ Eat as many sweets as you can, track your score, unlock achievements, generate a
 
 ### 1. Enter the Celebration 🪔
 
+![Page 1](image.png)
+
 Open the game and enter the festive Ganesh Chaturthi environment.
 
 You'll see:
@@ -31,6 +33,8 @@ You'll see:
 
 Select what you want to eat:
 
+![Page 2](image-1.png)
+
 | Mode                | Description                 |
 | ------------------- | --------------------------- |
 | 🍥 **Modak**        | Eat only Modaks             |
@@ -42,6 +46,8 @@ Then press **Let's Eat! 🙏**
 ---
 
 ### 3. Pick a Sweet 👆
+
+![alt text](image-2.png)
 
 You'll see sweets arranged on your thali.
 
@@ -137,6 +143,8 @@ Your result screen shows:
 ---
 
 ### 8. Generate Your Scorecard 📸
+
+![Scorecard](image-3.png)
 
 Create a festive **1080 × 1350** scorecard containing your final results.
 
