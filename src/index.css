@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Diya Flame Flicker Keyframe */
+  @keyframes flicker {
+    0%, 100% { transform: scale(1) rotate(-1deg); opacity: 1; }
+    50% { transform: scale(1.18) rotate(1deg); opacity: 0.82; }
+  }
+
+  /* Steam Rise Keyframe */
+  @keyframes steamRise {
+    0% { transform: translateY(0) scaleX(1); opacity: 0.7; }
+    100% { transform: translateY(-22px) scaleX(1.4); opacity: 0; }
+  }
+
+  /* Counter Score Bounce Keyframe */
+  @keyframes scoreBounce {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.35) rotate(4deg); }
+    100% { transform: scale(1); }
+  }
+
+  /* Screen Micro Shake on Eat */
+  @keyframes screenShake {
+    0%, 100% { transform: translate(0, 0); }
+    25% { transform: translate(-3px, 2px); }
+    75% { transform: translate(3px, -2px); }
+  }
+
+  .animate-flicker {
+    animation: flicker 1.8s ease-in-out infinite;
+  }
+
+  .animate-steamRise {
+    animation: steamRise 2s ease-out infinite;
+  }
+
+  .animate-scoreBounce {
+    animation: scoreBounce 0.4s ease-in-out;
+  }
+
+  .animate-screenShake {
+    animation: screenShake 0.15s ease-in-out;
+  }
+}
+
+/* Custom Scrollbar & Selection Reset */
+body {
+  font-family: 'Outfit', 'Poppins', sans-serif;
+  background-color: #FFFDF7;
+  color: #451A03;
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
